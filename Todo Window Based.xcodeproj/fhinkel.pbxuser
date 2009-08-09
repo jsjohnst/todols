@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Todo_Window_BasedAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 418}}";
+			sepNavSelRange = "{463, 0}";
+			sepNavVisRange = "{0, 511}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Todo_Window_BasedAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 530}}";
+			sepNavSelRange = "{638, 0}";
+			sepNavVisRange = "{173, 496}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Todo Window Based */ = {
+		activeExec = 0;
+		executables = (
+			2916E9B1102EB024005F7A55 /* Todo Window Based */,
+		);
+	};
+	2916E9B1102EB024005F7A55 /* Todo Window Based */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Todo Window Based";
+		sourceDirectories = (
+		);
+	};
+	2916E9B6102EB043005F7A55 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	2916E9B7102EB043005F7A55 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	2916E9B8102EB0B9005F7A55 /* TodoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 420}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRange = "{0, 877}";
+		};
+	};
+	2916E9B9102EB0B9005F7A55 /* TodoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {984, 868}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 739}";
+		};
+	};
+	2916E9BB102EB0CE005F7A55 /* HomeViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 249}";
+		};
+	};
+	2916E9BE102EB0D9005F7A55 /* InboxViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 251}";
+		};
+	};
+	2916E9C5102EB121005F7A55 /* AddActionViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 259}";
+		};
+	};
+	2916E9C8102EB132005F7A55 /* DisplayActionViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 253}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 267}";
+		};
+	};
+	2916E9E8102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9BB102EB0CE005F7A55 /* HomeViewController.h */;
+		name = "HomeViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 249;
+		vrLoc = 0;
+	};
+	2916E9E9102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9BE102EB0D9005F7A55 /* InboxViewController.h */;
+		name = "InboxViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 251;
+		vrLoc = 0;
+	};
+	2916E9EA102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9C5102EB121005F7A55 /* AddActionViewController.h */;
+		name = "AddActionViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 259;
+		vrLoc = 0;
+	};
+	2916E9EB102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9C8102EB132005F7A55 /* DisplayActionViewController.h */;
+		name = "DisplayActionViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 267;
+		vrLoc = 0;
+	};
+	2916E9EC102EB716005F7A55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Todo_Window_Based-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/fhinkel/Documents/Xcode/Todo Window Based/Todo_Window_Based-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	2916E9ED102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9B9102EB0B9005F7A55 /* TodoViewController.m */;
+		name = "TodoViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 0;
+	};
+	2916E9EE102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Todo_Window_BasedAppDelegate.h */;
+		name = "Todo_Window_BasedAppDelegate.h: 17";
+		rLen = 0;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 511;
+		vrLoc = 0;
+	};
+	2916E9EF102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Todo_Window_BasedAppDelegate.m */;
+		name = "Todo_Window_BasedAppDelegate.m: 29";
+		rLen = 0;
+		rLoc = 638;
+		rType = 0;
+		vrLen = 496;
+		vrLoc = 173;
+	};
+	2916E9F0102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9B8102EB0B9005F7A55 /* TodoViewController.h */;
+		name = "TodoViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 249;
+		vrLoc = 0;
+	};
+	2916E9F1102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9B8102EB0B9005F7A55 /* TodoViewController.h */;
+		name = "TodoViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 249;
+		vrLoc = 0;
+	};
+	2916E9F2102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9BB102EB0CE005F7A55 /* HomeViewController.h */;
+		name = "HomeViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 249;
+		vrLoc = 0;
+	};
+	2916E9F3102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9BE102EB0D9005F7A55 /* InboxViewController.h */;
+		name = "InboxViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 251;
+		vrLoc = 0;
+	};
+	2916E9F4102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Todo_Window_BasedAppDelegate.m */;
+		name = "Todo_Window_BasedAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 454;
+		vrLoc = 0;
+	};
+	2916E9F5102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9C5102EB121005F7A55 /* AddActionViewController.h */;
+		name = "AddActionViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 259;
+		vrLoc = 0;
+	};
+	2916E9F6102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9C8102EB132005F7A55 /* DisplayActionViewController.h */;
+		name = "DisplayActionViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 267;
+		vrLoc = 0;
+	};
+	2916E9F7102EB716005F7A55 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Todo_Window_Based-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/fhinkel/Documents/Xcode/Todo Window Based/Todo_Window_Based-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	2916E9F8102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9B9102EB0B9005F7A55 /* TodoViewController.m */;
+		name = "TodoViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 0;
+	};
+	2916E9F9102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Todo_Window_BasedAppDelegate.h */;
+		name = "Todo_Window_BasedAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 504;
+		rType = 0;
+		vrLen = 364;
+		vrLoc = 0;
+	};
+	2916E9FA102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Todo_Window_BasedAppDelegate.m */;
+		name = "Todo_Window_BasedAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 0;
+	};
+	2916E9FB102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Todo_Window_BasedAppDelegate.h */;
+		name = "Todo_Window_BasedAppDelegate.h: 17";
+		rLen = 0;
+		rLoc = 463;
+		rType = 0;
+		vrLen = 511;
+		vrLoc = 0;
+	};
+	2916E9FC102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Todo_Window_BasedAppDelegate.m */;
+		name = "Todo_Window_BasedAppDelegate.m: 29";
+		rLen = 0;
+		rLoc = 638;
+		rType = 0;
+		vrLen = 496;
+		vrLoc = 173;
+	};
+	2916E9FD102EB716005F7A55 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2916E9B8102EB0B9005F7A55 /* TodoViewController.h */;
+		name = "TodoViewController.h: 13";
+		rLen = 0;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 877;
+		vrLoc = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 2916E9B1102EB024005F7A55 /* Todo Window Based */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Todo Window Based */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Todo Window Based */,
+		);
+		codeSenseManager = 2916E9B7102EB043005F7A55 /* Code sense */;
+		executables = (
+			2916E9B1102EB024005F7A55 /* Todo Window Based */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					638,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 271497096;
+			PBXWorkspaceStateSaveDate = 271497096;
+		};
+		perUserProjectItems = {
+			2916E9E8102EB716005F7A55 = 2916E9E8102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9E9102EB716005F7A55 = 2916E9E9102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9EA102EB716005F7A55 = 2916E9EA102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9EB102EB716005F7A55 = 2916E9EB102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9EC102EB716005F7A55 = 2916E9EC102EB716005F7A55 /* PlistBookmark */;
+			2916E9ED102EB716005F7A55 = 2916E9ED102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9EE102EB716005F7A55 = 2916E9EE102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9EF102EB716005F7A55 = 2916E9EF102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9F0102EB716005F7A55 = 2916E9F0102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9F1102EB716005F7A55 = 2916E9F1102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9F2102EB716005F7A55 = 2916E9F2102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9F3102EB716005F7A55 = 2916E9F3102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9F4102EB716005F7A55 = 2916E9F4102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9F5102EB716005F7A55 = 2916E9F5102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9F6102EB716005F7A55 = 2916E9F6102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9F7102EB716005F7A55 = 2916E9F7102EB716005F7A55 /* PlistBookmark */;
+			2916E9F8102EB716005F7A55 = 2916E9F8102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9F9102EB716005F7A55 = 2916E9F9102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9FA102EB716005F7A55 = 2916E9FA102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9FB102EB716005F7A55 = 2916E9FB102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9FC102EB716005F7A55 = 2916E9FC102EB716005F7A55 /* PBXTextBookmark */;
+			2916E9FD102EB716005F7A55 = 2916E9FD102EB716005F7A55 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 2916E9B6102EB043005F7A55 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}
