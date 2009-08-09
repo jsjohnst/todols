@@ -78,6 +78,7 @@
 		[addActionController release];
 	}
 	
+	
 	if (self.homeViewController.view.superview == nil) {
 		[addActionViewController.view removeFromSuperview];
 		[self.view insertSubview: self.homeViewController.view atIndex:0];

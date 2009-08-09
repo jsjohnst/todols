@@ -8,9 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class TodoViewController;
 
 @interface HomeViewController : UIViewController {
-
+	IBOutlet TodoViewController *pvc;
 }
+
+-(IBAction)addActionPress:(id)sender; 
 
 @end
