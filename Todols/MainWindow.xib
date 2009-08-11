@@ -104,14 +104,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">buttonPressed:</string>
-						<reference key="source" ref="492558464"/>
-						<reference key="destination" ref="937613724"/>
-					</object>
-					<int key="connectionID">18</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">addActionButtonPress</string>
 						<reference key="source" ref="1028176768"/>
 						<reference key="destination" ref="937613724"/>
