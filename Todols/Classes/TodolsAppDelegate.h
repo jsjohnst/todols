@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TodolsAppDelegate : NSObject <UIApplicationDelegate> {
-    IBOutlet UIWindow *window;
+	IBOutlet UIWindow *window;
 	IBOutlet UINavigationController *navController;
 }
 

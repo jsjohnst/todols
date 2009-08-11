@@ -11,7 +11,7 @@
 @implementation TodolsAppDelegate
 
 @synthesize window;
-
+@synthesize navController;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
 	
@@ -21,7 +21,7 @@
 
 
 - (void)dealloc {
-	[navController release];
+	 [navController release];
     [window release];
     [super dealloc];
 }

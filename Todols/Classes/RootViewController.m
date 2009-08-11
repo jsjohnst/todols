@@ -7,10 +7,11 @@
 //
 
 #import "RootViewController.h"
+#import "TodolsAppDelegate.h"
+#import "ActionListView.h"
 
 
 @implementation RootViewController
-@synthesize controllers;
 
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -24,10 +25,7 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-	self.title = @"Todols - Home";
-	NSMutableArray *array = [[NSMutableArray alloc] init];
-	self.controllers = array;
-	[array release];
+	self.title = @"Home";
     [super viewDidLoad];
 }
 
@@ -54,13 +52,36 @@
 
 
 - (void)dealloc {
-	[controllers release];
     [super dealloc];
 }
 
 - (IBAction) buttonPressed:(id)sender {
 	UIButton *button = sender;
-	NSLog(@"Sender: %@", button.currentTitle);
+	NSLog(@"You pressed the '%@' button!", button.currentTitle);
+	UIViewController *nextController = nil;
+	
+	if([button.currentTitle caseInsensitiveCompare: @"Inbox"] == 0) {
+		nextController = [[ActionListView alloc] init];
+		nextController.title = @"Actions - Inbox";
+		NSLog(@"nextController: %@", nextController);
+	} else if([button.currentTitle caseInsensitiveCompare: @"Today"] == 0) {
+		nextController = [[ActionListView alloc] init];
+		nextController.title = @"Actions - Today";
+		NSLog(@"nextController: %@", nextController);
+	} else if([button.currentTitle caseInsensitiveCompare: @"This Week"] == 0) {
+		nextController = [[ActionListView alloc] init];
+		nextController.title = @"Actions - This Week";
+		NSLog(@"nextController: %@", nextController);
+	} else if([button.currentTitle caseInsensitiveCompare: @"Someday"] == 0) {
+		nextController = [[ActionListView alloc] init];
+		nextController.title = @"Actions - Someday";
+		NSLog(@"nextController: %@", nextController);
+	}
+	
+	if(nextController) {
+		TodolsAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+		[delegate.navController pushViewController:nextController animated:YES];
+	}
 }
 
 @end

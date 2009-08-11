@@ -15,6 +15,7 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		D82C4FD0103140A30010C235 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82C4FCE103140A30010C235 /* RootViewController.m */; };
 		D82C4FD1103140A30010C235 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D82C4FCF103140A30010C235 /* RootViewController.xib */; };
+		D82C5087103151F00010C235 /* ActionListView.m in Sources */ = {isa = PBXBuildFile; fileRef = D82C5086103151F00010C235 /* ActionListView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +31,9 @@
 		8D1107310486CEB800E47090 /* Todols-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Todols-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		D82C4FCD103140A30010C235 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		D82C4FCE103140A30010C235 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		D82C4FCF103140A30010C235 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		D82C4FCF103140A30010C235 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = Classes/RootViewController.xib; sourceTree = "<group>"; };
+		D82C5085103151F00010C235 /* ActionListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionListView.h; sourceTree = "<group>"; };
+		D82C5086103151F00010C235 /* ActionListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionListView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,11 +53,12 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				D82C5085103151F00010C235 /* ActionListView.h */,
+				D82C5086103151F00010C235 /* ActionListView.m */,
 				1D3623240D0F684500981E51 /* TodolsAppDelegate.h */,
 				1D3623250D0F684500981E51 /* TodolsAppDelegate.m */,
 				D82C4FCD103140A30010C235 /* RootViewController.h */,
 				D82C4FCE103140A30010C235 /* RootViewController.m */,
-				D82C4FCF103140A30010C235 /* RootViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -91,6 +95,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D82C4FCF103140A30010C235 /* RootViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Todols-Info.plist */,
 			);
@@ -164,6 +169,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* TodolsAppDelegate.m in Sources */,
 				D82C4FD0103140A30010C235 /* RootViewController.m in Sources */,
+				D82C5087103151F00010C235 /* ActionListView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
