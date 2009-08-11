@@ -13,6 +13,7 @@
 
 }
 
+- (IBAction) addActionButtonPress;
 - (IBAction) buttonPressed:(id)sender;
 
 @end

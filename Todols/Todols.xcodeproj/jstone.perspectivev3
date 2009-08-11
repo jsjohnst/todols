@@ -230,8 +230,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -275,8 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
 									<integer>9</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -309,26 +307,36 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>D82C4FE7103147300010C235</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>&lt;No Editor&gt;</string>
+								<string>AddActionView.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
 										<string>D82C4FE8103147300010C235</string>
+										<key>PBXProjectModuleLabel</key>
+										<string>AddActionView.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>D82C50E810315A7B0010C235</string>
 										<key>history</key>
 										<array>
-											<string>D82C502410314C750010C235</string>
-											<string>D82C504E10314ECC0010C235</string>
 											<string>D82C505B10314F770010C235</string>
 											<string>D82C5064103150050010C235</string>
-											<string>D82C506F103150A40010C235</string>
-											<string>D82C5079103151310010C235</string>
+											<string>D82C50AE103156BF0010C235</string>
+											<string>D82C50BA103157170010C235</string>
+											<string>D82C50DE10315A590010C235</string>
+											<string>D82C50E310315A7B0010C235</string>
+											<string>D82C50E410315A7B0010C235</string>
+											<string>D82C50E510315A7B0010C235</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -348,11 +356,6 @@
 											<string>D82C4FFA103147300010C235</string>
 											<string>D82C4FFB103147300010C235</string>
 											<string>D82C502610314C750010C235</string>
-											<string>D82C502710314C750010C235</string>
-											<string>D82C502810314C750010C235</string>
-											<string>D82C502910314C750010C235</string>
-											<string>D82C502A10314C750010C235</string>
-											<string>D82C502B10314C750010C235</string>
 											<string>D82C505010314ECC0010C235</string>
 											<string>D82C505110314ECC0010C235</string>
 											<string>D82C505E10314F770010C235</string>
@@ -361,10 +364,27 @@
 											<string>D82C506110314F770010C235</string>
 											<string>D82C5067103150050010C235</string>
 											<string>D82C5068103150050010C235</string>
-											<string>D82C506D103150750010C235</string>
 											<string>D82C5071103150A40010C235</string>
-											<string>D82C5072103150A40010C235</string>
-											<string>D82C507A103151310010C235</string>
+											<string>D82C5094103153A80010C235</string>
+											<string>D82C5095103153A80010C235</string>
+											<string>D82C5096103153A80010C235</string>
+											<string>D82C5097103153A80010C235</string>
+											<string>D82C5098103153A80010C235</string>
+											<string>D82C5099103153A80010C235</string>
+											<string>D82C509A103153A80010C235</string>
+											<string>D82C509B103153A80010C235</string>
+											<string>D82C50A31031554A0010C235</string>
+											<string>D82C50A41031554A0010C235</string>
+											<string>D82C50A51031554A0010C235</string>
+											<string>D82C50A61031554A0010C235</string>
+											<string>D82C50B0103156BF0010C235</string>
+											<string>D82C50BC103157170010C235</string>
+											<string>D82C50BD103157170010C235</string>
+											<string>D82C50BE103157170010C235</string>
+											<string>D82C50D3103158580010C235</string>
+											<string>D82C50E010315A590010C235</string>
+											<string>D82C50E610315A7B0010C235</string>
+											<string>D82C50E710315A7B0010C235</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>

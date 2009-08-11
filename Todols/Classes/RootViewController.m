@@ -9,7 +9,7 @@
 #import "RootViewController.h"
 #import "TodolsAppDelegate.h"
 #import "ActionListView.h"
-
+#import "AddActionView.h"
 
 @implementation RootViewController
 
@@ -26,6 +26,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
 	self.title = @"Home";
+	self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
     [super viewDidLoad];
 }
 
@@ -76,12 +77,23 @@
 		nextController = [[ActionListView alloc] init];
 		nextController.title = @"Actions - Someday";
 		NSLog(@"nextController: %@", nextController);
-	}
+	} 
 	
 	if(nextController) {
 		TodolsAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
 		[delegate.navController pushViewController:nextController animated:YES];
 	}
 }
+
+- (IBAction) addActionButtonPress {
+	NSLog(@"You pressed the 'Add Action' button!");
+	UIViewController *nextController = [[AddActionView alloc] init];
+	nextController.title = @"New Action";
+	NSLog(@"nextController: %@", nextController);
+	
+	TodolsAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	[delegate.navController pushViewController:nextController animated:YES];
+}
+
 
 @end
