@@ -10,7 +10,11 @@
 
 
 @interface RootViewController : UIViewController {
-
+	NSArray *controllers;
 }
+
+@property (nonatomic, retain) NSArray *controllers;
+
+- (IBAction) buttonPressed:(id)sender;
 
 @end

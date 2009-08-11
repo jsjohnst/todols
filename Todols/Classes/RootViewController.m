@@ -10,6 +10,7 @@
 
 
 @implementation RootViewController
+@synthesize controllers;
 
 
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -23,6 +24,10 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
+	self.title = @"Todols - Home";
+	NSMutableArray *array = [[NSMutableArray alloc] init];
+	self.controllers = array;
+	[array release];
     [super viewDidLoad];
 }
 
@@ -49,8 +54,12 @@
 
 
 - (void)dealloc {
+	[controllers release];
     [super dealloc];
 }
 
+- (IBAction) buttonPressed:(id)sender {
+	NSLog(@"Sender: %@", sender);
+}
 
 @end
