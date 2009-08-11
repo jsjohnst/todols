@@ -13,20 +13,20 @@
 
 
 @synthesize window;
-@synthesize todoViewController;
+@synthesize navController;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
 
     // Override point for customization after application launch
-	[window addSubview:todoViewController.view];
+	[window addSubview:navController.view];
     [window makeKeyAndVisible];
 }
 
 
 - (void)dealloc {
     [window release];
-	[todoViewController release];
+	[navController release];
     [super dealloc];
 }
 

@@ -18,6 +18,8 @@
 @synthesize homeViewController;
 @synthesize inboxViewController;
 @synthesize addActionViewController;
+@synthesize controllers; 
+
 
 
 

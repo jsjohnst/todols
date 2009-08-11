@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @class DisplayActionViewController;
 @class HomeViewController;
 @class InboxViewController;
@@ -18,8 +19,10 @@
 	HomeViewController *homeViewController;
 	InboxViewController *inboxViewController;
 	AddActionViewController *addActionViewController;
-}
+	NSArray *controllers; 
+} 
 
+@property (nonatomic, retain) NSArray *controllers;
 @property (retain, nonatomic) DisplayActionViewController *displayActionViewController;
 @property (retain, nonatomic) HomeViewController *homeViewController;
 @property (retain, nonatomic) InboxViewController *inboxViewController;
