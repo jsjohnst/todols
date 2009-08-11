@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Project</string>
+	<string>Debug</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -295,8 +295,6 @@
 							<string>MainColumn</string>
 							<real>185</real>
 						</array>
-						<key>RubberWindowFrame</key>
-						<string>229 197 1078 545 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -307,8 +305,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -326,13 +322,13 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>D82C500D1031476A0010C235</string>
+										<string>D82C501B103149810010C235</string>
 										<key>history</key>
 										<array>
 											<string>D82C4FE9103147300010C235</string>
 											<string>D82C4FEA103147300010C235</string>
 											<string>D82C4FEB103147300010C235</string>
-											<string>D82C500C1031476A0010C235</string>
+											<string>D82C5018103149790010C235</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -365,8 +361,6 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {871, 150}}</string>
-								<key>RubberWindowFrame</key>
-								<string>229 197 1078 545 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -444,8 +438,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {871, 322}}</string>
-										<key>RubberWindowFrame</key>
-										<string>229 197 1078 545 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -516,6 +508,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
@@ -527,6 +521,8 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1078, 129}}</string>
+						<key>RubberWindowFrame</key>
+						<string>228 197 1078 545 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -601,7 +597,11 @@
 							</array>
 							<key>Frame</key>
 							<string>{{526, 0}, {552, 180}}</string>
+							<key>RubberWindowFrame</key>
+							<string>228 197 1078 545 0 0 1440 878 </string>
 						</dict>
+						<key>RubberWindowFrame</key>
+						<string>228 197 1078 545 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>
@@ -666,7 +666,7 @@
 		<string>/Users/jstone/Source/github/todols/Todols/Todols.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>229 197 1078 545 0 0 1440 878 </string>
+	<string>228 197 1078 545 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

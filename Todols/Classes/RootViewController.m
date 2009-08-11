@@ -59,7 +59,8 @@
 }
 
 - (IBAction) buttonPressed:(id)sender {
-	NSLog(@"Sender: %@", sender);
+	UIButton *button = sender;
+	NSLog(@"Sender: %@", button.currentTitle);
 }
 
 @end
