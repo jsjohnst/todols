@@ -1,0 +1,78 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* TodolsAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 444}}";
+			sepNavSelRange = "{274, 0}";
+			sepNavVisRange = "{0, 458}";
+		};
+	};
+	1D3623250D0F684500981E51 /* TodolsAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 467}}";
+			sepNavSelRange = "{429, 0}";
+			sepNavVisRange = "{0, 482}";
+			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Todols */ = {
+		activeExec = 0;
+		executables = (
+			D82C4FB310313E390010C235 /* Todols */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = D82C4FB310313E390010C235 /* Todols */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Todols */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Todols */,
+		);
+		codeSenseManager = D82C4FBE10313E580010C235 /* Code sense */;
+		executables = (
+			D82C4FB310313E390010C235 /* Todols */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 271662649;
+			PBXWorkspaceStateSaveDate = 271662649;
+		};
+		sourceControlManager = D82C4FBD10313E580010C235 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	D82C4FB310313E390010C235 /* Todols */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Todols;
+		sourceDirectories = (
+		);
+	};
+	D82C4FBD10313E580010C235 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	D82C4FBE10313E580010C235 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}
