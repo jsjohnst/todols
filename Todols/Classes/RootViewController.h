@@ -10,10 +10,17 @@
 
 
 @interface RootViewController : UIViewController {
-
+	IBOutlet UIButton *inboxButton;
+	IBOutlet UIButton *todayButton;
+	IBOutlet UIButton *weekButton;
+	IBOutlet UIButton *somedayButton;
 }
 
-- (IBAction) addActionButtonPress;
+@property (nonatomic,readwrite,retain) UIButton *inboxButton;
+@property (nonatomic,readwrite,retain) UIButton *todayButton;
+@property (nonatomic,readwrite,retain) UIButton *weekButton;
+@property (nonatomic,readwrite,retain) UIButton *somedayButton;
+
 - (IBAction) buttonPressed:(id)sender;
 
 @end

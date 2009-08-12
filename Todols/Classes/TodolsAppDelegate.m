@@ -14,14 +14,13 @@
 @synthesize navController;
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
-	
     [window addSubview: navController.view];
     [window makeKeyAndVisible];
 }
 
 
 - (void)dealloc {
-	 [navController release];
+	[navController release];
     [window release];
     [super dealloc];
 }
